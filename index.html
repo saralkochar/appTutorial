@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title></title>
+
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+      <!-- Custom CSS -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- Include Modernizr in the head, before any other Javascript -->
+    <script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+  </head>
+
+  <body>
+
+    <div class="container text-center">
+
+    <h1> Click Me </h1>
+
+    <!-- Large modal -->
+    <button class="btn btn-default" data-toggle="modal" data-target=".bs-example-modal-lg">Tutorial</button>
+
+    <div id="myModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+      <!--Indicators -->
+      <ol class="carousel-indicators ">
+        <li class="active" data-slide-to="0" data-target="#myCarousel">1</li>
+        <li data-slide-to="1" data-target="#myCarousel">2</li>
+        <li data-slide-to="2" data-target="#myCarousel">3</li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+         <img class="img-responsive" src="images/dockZones.gif" alt="...">
+          <div class="carousel-caption">
+            Letterpress Bushwick shabby.
+          </div>
+        </div><!--item active-->
+        <div class="item">
+          <img class="img-responsive" src="images/page3.gif" alt="...">
+          <div class="carousel-caption">
+            Letterpress Bushwick shabby chic, Tumblr skateboard beard sustainable.
+          </div>
+        </div><!--item2-->
+         <div class="item">
+          <img class="img-responsive" src="images/dockZones.gif" alt="...">
+          <div class="carousel-caption">
+            ALetterpress Bushwick shabby chic
+          </div><!--caption-->
+        </div><!--item3-->
+      </div><!-- Carousel-inner-->
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+      <!--Close button -->
+      <button class="close" data-dismiss="modal">&times;close</button>
+
+
+
+    </div><!--end carousel-slide -->
+        </div><!--end modal content -->
+      </div><!--end modal dialog -->
+    </div><!-- end modal -->
+
+    </div><!--end container text-center-->
+
+  <!-- First try for the online version of jQuery-->
+  <script src="http://code.jquery.com/jquery.js"></script>
+
+  <!-- If no online access, fallback to our hardcoded version of jQuery -->
+  <script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+  <!-- Bootstrap JS -->
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="includes/js/script.js"></script>
+
+  </body>
+</html>
+

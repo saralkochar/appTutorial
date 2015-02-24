@@ -1,0 +1,52 @@
+body {
+    padding-top: 20px;
+
+}
+
+.btn-default {
+  top: 25%;
+  left:25%;
+  color: #999;
+  background: #fffccc;
+}
+
+/* add background color to carousel-caption
+.carousel-caption {
+  background: #999;
+  color: #4674B8;
+}
+*/
+
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 15;
+  width: 120px;
+  padding-left: 0;
+  margin-left: -60px;
+  text-align: center;
+  list-style: none;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+}
+
+.carousel-indicators .active {
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+
+
