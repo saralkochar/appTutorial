@@ -28,18 +28,19 @@
     <div id="myModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-lg">
         <div class="modal-content">
-        <h5>Tutorial</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </br><hr>
 
-
-          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!--Carousel start -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="15000">
 
       <!--Indicators -->
-      <ol class="carousel-indicators ">
-        <li class="active" data-slide-to="0" data-target="#myCarousel">1</li>
-        <li data-slide-to="1" data-target="#myCarousel">2</li>
-        <li data-slide-to="2" data-target="#myCarousel">3</li>
-        <li data-slide-to="3" data-target="#myCarousel">4</li>
-        <li data-slide-to="4" data-target="#myCarousel">5</li>
+      <ol class="carousel-indicators">
+        <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+        <li data-slide-to="1" data-target="#myCarousel"></li>
+        <li data-slide-to="2" data-target="#myCarousel"></li>
+        <li data-slide-to="3" data-target="#myCarousel"></li>
+        <li data-slide-to="4" data-target="#myCarousel"></li>
       </ol>
 
       <!-- Wrapper for slides -->
@@ -47,13 +48,15 @@
         <div class="item active">
          <img class="img-responsive" src="images/intro.png" alt="...">
           <div class="carousel-caption">
-            <h4>Hi Welcome! Thank you For Registering Your Account.</h4>
-            <p>Here's a quick guide to get you started with Techpacker</p>
+          </br><hr></br>
+            <h4>Hi, Here's a Quick Tour to Get you Started</h4>
+            <p>Hop-on !</p>
           </div>
         </div><!--item active-->
         <div class="item">
           <img class="img-responsive" src="images/slide2.gif" alt="...">
           <div class="carousel-caption">
+          </br><hr></br>
             <h4>Preparing Your Techpack</h4>
             <p>Add a techpack through your dashboard and define your style settings.</p>
           </div>
@@ -61,6 +64,7 @@
          <div class="item">
           <img class="img-responsive" src="images/slide3.gif" alt="...">
           <div class="carousel-caption">
+          </br><hr></br>
             <h4>Organize Your Design's Information</h4>
             <p>Create cards for your sketches, materials and specs.</p>
           </div><!--caption-->
@@ -68,6 +72,7 @@
         <div class="item">
           <img class="img-responsive" src="images/slide4.gif" alt="...">
           <div class="carousel-caption">
+          </br><hr></br>
             <h4>Preview your Techpack </h4>
             <p>Review all the information and download as PDF.</p>
           </div><!--caption-->
@@ -75,21 +80,12 @@
         <div class="item">
           <img class="img-responsive" src="images/slide5.gif" alt="...">
           <div class="carousel-caption">
+          </br><hr></br>
             <h4>Arrange all Your Techpacks</h4>
             <p>You can easily search or copy your techpacks on your dashboard.</p>
           </div><!--caption-->
         </div><!--item5-->
       </div><!-- Carousel-inner-->
-
-      <!-- Controls -->
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span>
-      </a>
-      <!--Close button -->
-      <button class="close" data-dismiss="modal">&times;close</button>
-
-
 
     </div><!--end carousel-slide -->
         </div><!--end modal content -->
@@ -107,8 +103,6 @@
   <!-- Bootstrap JS -->
   <script src="bootstrap/js/bootstrap.min.js"></script>
 
-  <!-- Custom JS -->
-  <script src="includes/js/script.js"></script>
 
   </body>
 </html>

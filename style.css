@@ -10,13 +10,39 @@ body {
   background: #fffccc;
 }
 
-/* add background color to carousel-caption
-.carousel-caption {
-  background: #999;
-  color: #4674B8;
-}
-*/
+/* -------------------------------
+modal
+---------------------------------*/
+.modal-dialog { 
 
+  width: 700px;
+
+}
+
+
+
+/* -------------------------------
+carousel 
+---------------------------------*/
+
+.carousel-caption {
+  position: relative;
+  right: 15%;
+  bottom: 20px;
+  left: 0%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #888;
+  text-align: center;
+  text-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+}
+
+.carousel-caption h4 {
+  color: #c90076;
+  font-weight: bold;
+
+}
 
 .carousel-indicators {
   position: absolute;
@@ -37,7 +63,7 @@ body {
   margin: 1px;
   text-indent: -999px;
   cursor: pointer;
-  border: 1px solid #ffffff;
+  border: 1px solid #00bc9a;
   border-radius: 10px;
 }
 
@@ -45,7 +71,70 @@ body {
   width: 12px;
   height: 12px;
   margin: 0;
-  background-color: #ffffff;
+  background-color: #00bc9a;
+}
+
+.carousel-indicators li .caption {
+  font-size: 20px;
+  left: 50%;
+  right: 10%;
+  display: inline;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background-image: none;
+}
+
+/*------------------------------
+Line & buttons
+------------------------------*/
+hr { 
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.close {
+  margin-right: 10px;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+  .modal-dialog { width: 100%;}
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+  #slide1 {
+    background: url('../../images/Carousel_Small01.jpg') top center no-repeat;
+  }
+  #slide2 {
+    background: url('../../images/Carousel_Small02.jpg') top center no-repeat;
+  }
+  #slide3 {
+    background: url('../../images/Carousel_Small03.jpg') top center no-repeat;
+  }
+  .modal-dialog { width: 100%;}
+
+
+
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  .modal-dialog { width: 700px;}
 }
 
 
